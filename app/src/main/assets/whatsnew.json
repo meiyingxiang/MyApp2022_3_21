@@ -1,0 +1,115 @@
+{
+  "data": [
+
+    {
+      "title": "最喜爱部分",
+      "content": "现在，您可以添加喜爱的功能，并轻松访问这些功能。",
+      "icon": "ic_call_split_black_24dp"
+    },
+
+    {
+      "title": "查看历史",
+      "content": "查看历史记录转换的增强过滤器",
+      "icon": "ic_history_black_24dp"
+    },
+
+
+    {
+      "title": "Excel到PDF",
+      "content": "您现在也可以将excel文件转换为PDF！",
+      "icon": "ic_excel"
+    },
+
+    {
+      "title": "压缩至PDF",
+      "content": "您现在也可以将图像压缩文件转换为PDF格式！",
+      "icon": "ic_broken_image_black_24dp"
+    }
+
+  ],
+  "old_data": {
+    "version_code": [
+    ],
+
+    "84": [
+
+      {
+        "title": "反转PDF",
+        "content": "用于反转PDF颜色的新功能",
+        "icon": "ic_invert_color_24dp"
+      },
+
+      {
+        "title": "拆分PDF",
+        "content": "添加了更多拆分PDF的方法",
+        "icon": "ic_call_split_black_24dp"
+      },
+
+      {
+        "title": "固定崩溃",
+        "content": "修复了崩溃和PDF转换性能",
+        "icon": ""
+      }
+
+    ],
+
+    "83" : [
+      {
+        "title": "删除重复页面",
+        "content": "新功能：从PDF中删除重复页面。",
+        "icon": "ic_remove_circle_black_24dp"
+      }
+
+    ],
+    "80" : [
+      {
+        "title": "重新排序PDF页面",
+        "content": "修复了重新排序和删除PDF页面中的错误。",
+        "icon": ""
+      }
+    ],
+    "79" : [
+      {
+        "title": "修改现有PDF",
+        "content": "将图像添加到现有PDF",
+        "icon": "ic_add_black_24dp"
+      },
+      {
+        "title": "创建PDF时重新排列图像",
+        "content": "现在，您可以在使用图像创建PDF时轻松地对图像进行排序",
+        "icon": "ic_text_format_black_24dp"
+      }
+    ],
+
+    "74" : [
+      {
+        "title": "合并PDF",
+        "content": "一次轻松选择多个PDF进行合并",
+        "icon": "ic_merge_type_black_24dp"
+      },
+      {
+        "title": "访问文档和docx文件",
+        "content": "现在，您还可以将doc和docx文件转换为PDF",
+        "icon": "ic_text_format_black_24dp"
+      }
+    ],
+
+    "72": [
+      {
+        "title": "添加水印",
+        "content": "现在，在创建PDF时或在创建的PDF上添加水印",
+        "icon": "ic_branding_watermark_black_24dp"
+      },
+      {
+        "title": "添加或删除密码变得很容易",
+        "content": "现在，从左侧的导航抽屉中轻松添加或删除密码",
+        "icon": "ic_lock_open_black_24dp"
+      },
+      {
+        "title": "自己设置主密码",
+        "content": "转到设置->您也可以更改主密码：）",
+        "icon": "ic_lock_black_24dp"
+      }
+    ]
+  }
+}

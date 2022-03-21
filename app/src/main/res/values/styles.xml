@@ -1,0 +1,173 @@
+<!--suppress ALL -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeWhite" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:iconTint">@color/colorGray</item>
+        <item name="android:windowBackground">@color/windowBackground_light</item>
+        <item name="titleToolbarTextColor">@color/mb_white</item>
+        <item name="iconTintOnCard">@color/colorPrimary</item>
+        <item name="historyIconColor">@color/colorPrimary</item>
+        <item name="customDividerColor">@color/black</item>
+        <item name="navigationIconTint">@color/colorGray</item>
+        <item name="bottomSheetColor">?attr/colorPrimary</item>
+        <item name="bottomSheetTextColor">@color/mb_white</item>
+        <item name="bannerBackgroundColor">@color/colorAccent</item>
+        <item name="similarBgColor">@color/mb_white</item>
+        <item name="bottomSheetBgColor">@color/windowBackground_light</item>
+        <item name="lockIconTintColor">@color/black</item>
+        <item name="actionMenuTextColor">@color/mb_white</item>
+        <item name="searchFileRaw">@raw/search_file_dark</item>
+        <item name="android:actionMenuTextColor">@color/mb_white</item>
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:listDivider">@color/lighter_gray</item>
+        <item name="android:textColor">@color/colorBlackAlt</item>
+        <item name="materialCardViewStyle">@style/MaterialCardviewStyleLight</item>
+    </style>
+
+    <style name="AppThemeBlack" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/colorBackground_black</item>
+        <item name="historyIconColor">@color/colorGray</item>
+        <item name="iconTintOnCard">@color/mb_white</item>
+        <item name="customDividerColor">@color/windowBackground_dark</item>
+        <item name="navigationIconTint">@color/colorGray</item>
+        <item name="bottomSheetColor">@color/mb_white</item>
+        <item name="bottomSheetTextColor">@color/black</item>
+        <item name="bannerBackgroundColor">@color/windowBackground_dark</item>
+        <item name="similarBgColor">@color/black</item>
+        <item name="bottomSheetBgColor">@color/colorBackground_black</item>
+        <item name="lockIconTintColor">@color/mb_white</item>
+        <item name="actionMenuTextColor">@color/mb_white</item>
+        <item name="searchFileRaw">@raw/search_file_light</item>
+        <item name="android:actionMenuTextColor">@color/mb_white</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="materialCardViewStyle">@style/MaterialCardviewStyleBlack</item>
+    </style>
+
+    <style name="ActivityThemeDark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorBlackAlt</item>
+        <item name="android:windowBackground">@color/windowBackground_dark</item>
+        <item name="titleToolbarTextColor">@color/mb_white</item>
+        <item name="iconTintOnCard">@color/white</item>
+        <item name="historyIconColor">@color/black</item>
+        <item name="customDividerColor">@color/black</item>
+        <item name="navigationIconTint">@color/colorGray</item>
+        <item name="bottomSheetColor">?attr/colorPrimary</item>
+        <item name="bottomSheetTextColor">@color/mb_white</item>
+        <item name="bannerBackgroundColor">@color/colorAccent</item>
+        <item name="similarBgColor">@color/black</item>
+        <item name="bottomSheetBgColor">@color/windowBackground_dark</item>
+        <item name="lockIconTintColor">@color/mb_white</item>
+        <item name="actionMenuTextColor">@color/mb_white</item>
+        <item name="searchFileRaw">@raw/search_file_light</item>
+        <item name="android:actionMenuTextColor">@color/mb_white</item>
+        <item name="android:statusBarColor">@color/colorBlackAlt</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="materialCardViewStyle">@style/MaterialCardviewStyleDark</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColorSecondary">@color/mb_white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MorphingButton">
+        <item name="android:textColor">@color/mb_white</item>
+    </style>
+
+    <style name="AboutUSTextViewMedium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:drawableTint">@color/colorGray</item>
+    </style>
+
+    <style name="AboutUSTextViewSmall" parent="TextAppearance.AppCompat.Small">
+        <item name="android:drawableTint">@color/colorGray</item>
+    </style>
+
+    <style name="PDFconverter">
+        <item name="android:textColor">@color/mb_white</item>
+        <item name="colorAccent">@color/colorGray</item>
+    </style>
+    <style name="TabLayoutCustomStyle" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="SplashTheme" parent="AppThemeWhite">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:navigationBarColor">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarThemeDark">
+        <item name="android:backgroundTint">@color/colorBlackAltLight</item>
+    </style>
+    <style name="MainContentThemeDark">
+        <item name="android:backgroundTint">@color/colorBlackAlt</item>
+    </style>
+
+    <style name="MaterialCardviewStyleDark" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/colorBlackAltLight</item>
+    </style>
+    <style name="MaterialCardviewStyleBlack" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/black</item>
+    </style>
+    <style name="MaterialCardviewStyleLight" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="myDialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <!--启动页面的样式-->
+    <style name="SplashAppTheme" parent="BaseAppTheme">
+        <!--全屏-->
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PrivacyThemeDialog" parent="@android:style/Theme.Dialog">
+        <!--Dialog的windowFrame框为无-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--是否显示title-->
+        <item name="android:windowNoTitle">false</item>
+        <!--设置dialog的背景，（#00000000）-->
+        <item name="android:background">@android:color/transparent</item>
+        <!--显示区域背景是否透明，（#00000000）-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--就是用来控制灰度的值，当为1时，界面除了我们的dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容，系统的默认值是0.5-->
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--显示区域以外是否使用黑色半透明背景-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="TextViewOverline" parent="TextAppearance.AppCompat" />
+
+    <!-- Style for search bar -->
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat.ActionBar"/>
+
+</resources>
